@@ -1,3 +1,7 @@
+
+const myLibrary = [];
+
+
 function Book (title, author, pages, readStatus) {
     this.title = title;
     this.author = author;
@@ -8,6 +12,15 @@ function Book (title, author, pages, readStatus) {
     };
 }
 
+function addBookToLibrary() {
+
+
+}
+
+
+
+
+
 const theHobbit = new Book ('The Hobbit', 'J.R.R. Tolkien', '295 pages', 'not read yet');
 
 console.log(theHobbit.title);
@@ -15,3 +28,5 @@ console.log(theHobbit.title);
 theHobbit.info();
 
 console.log(theHobbit.info());
+
+
